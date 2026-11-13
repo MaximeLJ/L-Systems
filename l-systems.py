@@ -3,7 +3,7 @@ import time
 import keyboard
 import math
 
-with open('/Users/max/Documents/Coding/Python/having fun/l-systems/l_system.txt') as l_sys:
+with open('./l_system.txt') as l_sys:
     variables = []
     rules = []
     for line in l_sys:
